@@ -1,8 +1,8 @@
 import Typography from 'typography';
 
 const typography = new Typography({
-  title: 'GatsbyTutorial',
-  baseFontSize: '18px',
+  title: 'LearnWithParam',
+  baseFontSize: '16px',
   baseLineHeight: 1.45,
   headerFontFamily: [
     'Candal',

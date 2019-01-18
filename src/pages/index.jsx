@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 
@@ -25,7 +25,7 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Home Page'} />
-      <Header title="Home Page">Gatbsy Tutorial Starter</Header>
+      <Header title="Home Page">Learn with Param</Header>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList

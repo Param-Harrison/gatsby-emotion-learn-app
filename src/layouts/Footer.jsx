@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
 const Wrapper = styled.footer`
   position: relative;
@@ -25,8 +25,7 @@ const Footer = () => (
   <Wrapper>
     <Text>
       <span>
-        Gatsby Tutorial Starter -{' '}
-        <a href="https://paramlabs.github.io">Param Harrison</a>
+        Learn with <a href="https://paramlabs.github.io">Param</a>
       </span>
     </Text>
   </Wrapper>

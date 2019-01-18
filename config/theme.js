@@ -11,13 +11,13 @@ const colors = {
     blue: '#2e3246',
   },
   primary: {
-    base: '#3498db',
-    light: '#3e5fbc',
-    dark: '#284187',
+    base: '#FEAC5E',
+    light: '#C779D0',
+    dark: '#4BC0C8',
   },
   background: {
-    light: '#3e5fbc',
-    dark: '#284187',
+    light: '#D38312',
+    dark: '#A83279',
   },
 };
 
@@ -44,9 +44,13 @@ const shadow = {
 
 const gradient = {
   // eslint-disable-next-line
-  leftToRight: `linear-gradient(-45deg, ${colors.background.light} 0%, ${colors.background.dark} 100%)`,
+  leftToRight: `linear-gradient(-45deg, ${colors.background.light} 0%, ${
+    colors.background.dark
+  } 100%)`,
   // eslint-disable-next-line
-  rightToLeft: `linear-gradient(45deg, ${colors.background.light} 0%, ${colors.background.dark} 100%)`,
+  rightToLeft: `linear-gradient(45deg, ${colors.background.light} 0%, ${
+    colors.background.dark
+  } 100%)`,
 };
 
 const transition = {
