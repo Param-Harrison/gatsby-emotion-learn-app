@@ -1,11 +1,7 @@
-# Learn with Params
-
-Learn with Params aim to provide free content to learn coding skills created by Param Harrison
-
 ## Development
 
 ```sh
-git clone git@github.com:paramlabs/LearnWithParam.git
+git clone git@github.com:paramlabs/gatsby-emotion-learn-app.git
 npm install
 npm run develop
 ```
